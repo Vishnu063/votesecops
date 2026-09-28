@@ -1,0 +1,11 @@
+vote:
+  image: votesecops-vote
+  tag: v2
+  nodePort: 31000
+result:
+  image: votesecops-result
+  tag: v2
+  nodePort: 31001
+worker:
+  image: votesecops-worker
+  tag: v2

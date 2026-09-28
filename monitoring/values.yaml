@@ -1,0 +1,12 @@
+alertmanager:
+  enabled: false
+grafana:
+  adminPassword: ChangeMe123
+  service:
+    type: NodePort
+    nodePort: 32000
+prometheus:
+  prometheusSpec:
+    retention: 2d
+    resources:
+      requests: {memory: 256Mi}

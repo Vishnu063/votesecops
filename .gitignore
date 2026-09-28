@@ -1,0 +1,9 @@
+node_modules/
+*.log
+.env
+*.tfstate*
+.terraform/
+kubeconfig*
+*.swp
+*.swo
+*.swn
